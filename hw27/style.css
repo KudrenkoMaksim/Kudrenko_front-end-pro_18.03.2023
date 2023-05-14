@@ -1,0 +1,14 @@
+div.img {
+   width: 400px;
+   border: 2px solid black;
+   text-align: center;
+   color: brown;
+   font-size: large;
+}
+body {
+   display: flex;
+   justify-content: center;
+}
+img {
+   width: 100%;
+}
