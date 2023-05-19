@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="watch">
+    <div class="watchImage"><img src="images/image.jpg"></div>
+    <div class="wathInform">
+      <h3>Годинник чоловічий</h3>
+      <h3>1200 грн</h3>
+      <p>Механізм: кварцевий</p>
+      <p>Водопроникність: 30м</p>
+      <p>Скло: пластик</p>
+    </div>
+    <button class="button_buy">Придбати</button>
+  </div>
+
+
+  <div class="formField">
+    <form name='main' action="#">
+      <p>Прізвище: <input type='text' name='surname' placeholder="Прізвище" value="Котик"></p> 
+      <p>Ім'я: <input type='text' name='name' placeholder="ім'я" value='Микола'></p>
+      <p>По батькові: <input type='text' name='fatherName' placeholder="По батькові" value='Борисович'></p>
+      <p>Місто:
+      <select name='town'>
+         <option value='Одеса'> Одеса </option>
+         <option value='Київ'> Київ </option>
+         <option value='Миколаїв' selected="selected"> Миколаїв </option>
+         <option value='Черкаси'> Черкаси </option>
+         <option value='Ужгород'> Ужгород </option>
+         <option value='Дніпро'> Дніпро </option>
+      </select>
+      </p>
+      <p>Склад Нової пошти:
+      <select name='department'>
+         <option value='№1'> №1 </option>
+         <option value='№2'> №2 </option>
+         <option value='№3'> №3</option>
+         <option value='№4'> №4</option>
+         <option value='№5'> №5</option>
+         <option value='№6'> №6</option>
+      </select>
+      </p>
+      <p>Спосіб оплати:
+      <select name='payment'>
+         <option value='Післяплата'> Післяплата</option>
+         <option value="Оплата картки"> Оплата картки</option>
+      </select>
+      </p>
+      <p>Кількість продукції, од.: <input type='text' name='production' value='1'></p>
+      <p>Коментар: <input name='comment' placeholder='ваш коментар'></p>
+      <button class='button_sell'>Відправити дані</button>
+   </form>
+  </div>
+
+  <div class="total">
+    <p class="SurName"></p>
+    <p class="Name"></p>
+    <p class="FatherName"></p>
+    <p class="Town"></p>
+    <p class="Department"></p>
+    <p class="Payment"></p>
+    <p class="Production"></p>
+    <p class="Comment"></p>
+  </div>
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
