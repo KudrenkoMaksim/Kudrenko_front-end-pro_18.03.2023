@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form">
+  <form action="#" name="main">
+    <p>Ім'я:<input type="text" name="name" value="Taras"></p>
+    <p>Прізвище:<input type="text" name="surname" value="Vovk"></p>
+    <p>День народження:<input type="text" name="birthday" value="25.12.22"></p>
+    <p>Стать:
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="male">Чоловіча</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Жіноча</label>
+    
+    </p>
+    <p>Місто:
+      <select name="town">
+        <option value="Kyiv">Київ</option>
+        <option value="Odesa">Одеса</option>
+        <option value="Harkiv">Харків</option>
+        <option value="Mukolaiv">Миколаїв</option>
+        <option value="Herson">Херсон</option>
+        <option value="Lviv">Львів</option>
+        <option value="Lutsk">Луцьк</option>
+        <option value="Uzhhorod">Ужгород</option>
+        <option value="Cherkasy">Черкаси</option>
+        <option value="Vinnitsa">Вінниця</option>
+        <option value="Chernihiv">Чернігів</option>
+      </select>
+    </p>
+    <p>Адреса:<textarea name="textarea" class="textarea">вул. Інглезі 25/12</textarea></p>
+    <p class="languages" name="language">
+      Мови, якими володіє: <br>
+      <label for="language1">Англійська</label>
+      <input type="checkbox" name="language" id="language1" value="English" checked></p>
+      <label for="language2">Француська</label>
+      <input type="checkbox" name="language" id="language2" value="Franch"></p>
+      <label for="language3">Італійська</label>
+      <input type="checkbox" name="language" id="language3" value="Italian"></p>
+      <label for="language4">Іспанська</label>
+      <input type="checkbox" name="language" id="language4" value="Spanish"></p>
+      <label for="language5">Німецька</label>
+      <input type="checkbox" name="language" id="language5" value="Germany"></p>
+      
+    <button type="button" class="button">Зберегти</button>
+  </form>
+</div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>
